@@ -59,7 +59,7 @@ Feature: Add a product and complete the check out process
         | Test demo         | 4242424242424242  | 0123          | 123     |
       Then I click on the "Checkout" button to book order
 
-#      When I click on the "Continue to Payment" button
+      When I click on the "Continue to Payment" button
 #      Then A pop up appear with the card and Billing Details fields.
 #      Then I fill the Credit Card details in the following fields on the checkout page
 #        | Card Number         | Expiration date    | CVV    |
